@@ -101,8 +101,8 @@ export default function Hero() {
             Get In Touch
           </motion.a>
           <motion.a
-            href="/resume.pdf"
-            download
+            href="/Vineet_Updated_Resume_5.6 years new.pdf"
+            download="Vineet_Sharma_Resume.pdf"
             className="group px-8 py-4 bg-dark-700 hover:bg-dark-600 text-white rounded-lg font-semibold flex items-center gap-2 transition-all duration-300 border border-dark-600"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

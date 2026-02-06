@@ -49,8 +49,8 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/vineet-sharma' },
-    { icon: Github, label: 'GitHub', url: 'https://github.com' },
+    { icon: Linkedin, label: 'LinkedIn', url: 'https://www.linkedin.com/in/vineet-sharma-a77389168' },
+    { icon: Github, label: 'GitHub', url: 'https://github.com/Vineetsharma3262' },
     { icon: Twitter, label: 'Twitter', url: 'https://twitter.com' },
   ];
 
