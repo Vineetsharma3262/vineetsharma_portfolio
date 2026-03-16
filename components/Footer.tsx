@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="text-gray-400 text-sm">
-            <p>Vineet Sharma | Senior Frontend Developer | 5.6+ Years of Experience</p>
+            <p>Vineet Sharma | Senior Frontend Developer | 5.9+ Years of Experience</p>
           </div>
         </motion.div>
       </div>

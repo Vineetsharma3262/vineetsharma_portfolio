@@ -122,7 +122,7 @@ export default function Skills() {
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-gray-300">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400 mb-2">5.6+</div>
+              <div className="text-3xl font-bold text-primary-400 mb-2">5.9+</div>
               <div>Years of Experience</div>
             </div>
             <div className="text-center">

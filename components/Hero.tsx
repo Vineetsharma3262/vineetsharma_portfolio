@@ -82,7 +82,7 @@ export default function Hero() {
           className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
         >
           Crafting exceptional digital experiences with{' '}
-          <span className="text-primary-400 font-semibold">5.6+ years</span> of expertise
+          <span className="text-primary-400 font-semibold">5.9+ years</span> of expertise
           <br className="hidden sm:block" />
           in React, Next.js, TypeScript, and modern web technologies
         </motion.p>

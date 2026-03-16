@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vineet Sharma | Senior Frontend Developer | React | Next.js | TypeScript",
-  description: "Portfolio of Vineet Sharma - Senior Frontend Developer with 5.6+ years of experience building responsive, high-performance web applications using React, Next.js, TypeScript, Redux Toolkit, and modern web technologies",
+  description: "Portfolio of Vineet Sharma - Senior Frontend Developer with 5.9+ years of experience building responsive, high-performance web applications using React, Next.js, TypeScript, Redux Toolkit, and modern web technologies",
   keywords: ["Vineet Sharma", "Frontend Developer", "React", "Next.js", "TypeScript", "Redux Toolkit", "Web Development", "Senior Developer"],
 };
 

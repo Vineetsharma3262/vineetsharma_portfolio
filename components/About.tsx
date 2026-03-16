@@ -8,7 +8,7 @@ export default function About() {
   const stats = [
     { icon: Code, label: 'Projects Completed', value: '10+' },
     { icon: Users, label: 'Enterprise Clients', value: '5+' },
-    { icon: Rocket, label: 'Years Experience', value: '5.6+' },
+    { icon: Rocket, label: 'Years Experience', value: '5.9+' },
     { icon: Award, label: 'Technologies', value: '40+' },
   ];
 
@@ -51,7 +51,7 @@ export default function About() {
           </h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto mb-6" />
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            Senior Frontend Developer with 5.6+ years of experience building responsive, high-performance web applications using React, Next.js, and TypeScript. Proven expertise in UI optimization, modular frontend architecture, and modern ecosystems including Redux Toolkit, Tailwind CSS, and Material UI.
+            Senior Frontend Developer with 5.9+ years of experience building responsive, high-performance web applications using React, Next.js, and TypeScript. Proven expertise in UI optimization, modular frontend architecture, and modern ecosystems including Redux Toolkit, Tailwind CSS, and Material UI.
           </p>
         </motion.div>
 
