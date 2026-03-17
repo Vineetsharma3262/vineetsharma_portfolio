@@ -10,7 +10,7 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, show
 - **Performance Optimized**: Built with Next.js for optimal performance
 - **SEO Friendly**: Proper meta tags and semantic HTML
 - **Dark Theme**: Modern dark theme with gradient accents
-- **Interactive Sections**: 
+- **Interactive Sections**:
   - Hero section with animated background
   - About section with experience timeline
   - Skills showcase with progress bars
@@ -20,12 +20,14 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, show
 ## 🛠️ Tech Stack
 
 ### Core Technologies
+
 - **Next.js 16** - React framework for production
 - **React 19** - UI library
 - **TypeScript** - Type-safe JavaScript
 - **Tailwind CSS** - Utility-first CSS framework
 
 ### Libraries & Tools
+
 - **Framer Motion** - Animation library (free)
 - **Lucide React** - Icon library (free)
 - **ESLint** - Code linting
@@ -65,18 +67,21 @@ portfolio/
 ## 🎨 Component Details
 
 ### 1. Navbar Component (`components/Navbar.tsx`)
+
 - Fixed navigation bar with smooth scroll behavior
 - Responsive mobile menu with hamburger icon
 - Transparent background that becomes opaque on scroll
 - Smooth animations on mount and hover
 
 **Features:**
+
 - Sticky navigation
 - Mobile-responsive menu
 - Active section highlighting
 - Smooth scroll to sections
 
 ### 2. Hero Component (`components/Hero.tsx`)
+
 - Eye-catching landing section
 - Animated background with gradient blobs
 - Call-to-action buttons
@@ -84,60 +89,70 @@ portfolio/
 - Mouse parallax effects
 
 **Features:**
+
 - Gradient text effects
 - Floating animated elements
 - Responsive typography
 - Download resume button
 
 ### 3. About Component (`components/About.tsx`)
+
 - Professional introduction
 - Statistics cards (Projects, Clients, Experience, Technologies)
 - Work experience timeline
 - Technology tags for each role
 
 **Features:**
+
 - Animated statistics
 - Timeline visualization
 - Responsive grid layout
 - Hover effects on cards
 
 ### 4. Skills Component (`components/Skills.tsx`)
+
 - Categorized skills display
 - Progress bars with animations
 - Filter by category (Frontend, Backend, Tools)
 - Skills summary section
 
 **Features:**
+
 - Interactive category filtering
 - Animated progress bars
 - Skill level percentages
 - Responsive grid layout
 
 ### 5. Projects Component (`components/Projects.tsx`)
+
 - Featured projects showcase
 - Project cards with hover effects
 - Technology tags
 - Links to GitHub and live demos
 
 **Features:**
+
 - Featured vs regular projects
 - Hover animations
 - External link buttons
 - Technology stack display
 
 ### 6. Contact Component (`components/Contact.tsx`)
+
 - Contact form with validation
 - Contact information cards
 - Social media links
 - Form submission handling
 
 **Features:**
+
 - Form validation
 - Responsive two-column layout
 - Social media integration
 - Email/Phone/Location display
 
 ### 7. Footer Component (`components/Footer.tsx`)
+
 - Simple footer with copyright
 - Animated heart icon
 - Responsive layout
@@ -145,15 +160,17 @@ portfolio/
 ## 📊 Data Structure
 
 ### Skills Data (`data/skills.ts`)
+
 ```typescript
 interface Skill {
   name: string;
   level: number; // 1-100
-  category: 'frontend' | 'backend' | 'tools' | 'other';
+  category: "frontend" | "backend" | "tools" | "other";
 }
 ```
 
 ### Projects Data (`data/projects.ts`)
+
 ```typescript
 interface Project {
   id: string;
@@ -169,6 +186,7 @@ interface Project {
 ```
 
 ### Experience Data (`data/experience.ts`)
+
 ```typescript
 interface Experience {
   company: string;
@@ -184,20 +202,24 @@ interface Experience {
 ### 1. Update Personal Information
 
 **Hero Section:**
+
 - Edit `components/Hero.tsx` - Update name and description
 - Change resume download link
 
 **About Section:**
+
 - Edit `components/About.tsx` - Update statistics
 - Modify `data/experience.ts` - Update work experience
 
 **Contact Section:**
+
 - Edit `components/Contact.tsx` - Update contact information
 - Update social media links
 
 ### 2. Update Skills
 
 Edit `data/skills.ts`:
+
 ```typescript
 export const skills: Skill[] = [
   { name: "React", level: 95, category: "frontend" },
@@ -208,6 +230,7 @@ export const skills: Skill[] = [
 ### 3. Update Projects
 
 Edit `data/projects.ts`:
+
 ```typescript
 export const projects: Project[] = [
   {
@@ -222,6 +245,7 @@ export const projects: Project[] = [
 ### 4. Change Colors
 
 Edit `tailwind.config.ts`:
+
 ```typescript
 colors: {
   primary: {
@@ -233,6 +257,7 @@ colors: {
 ### 5. Update Metadata
 
 Edit `app/layout.tsx`:
+
 ```typescript
 export const metadata: Metadata = {
   title: "Your Name | Portfolio",
@@ -243,22 +268,26 @@ export const metadata: Metadata = {
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 18+ installed
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone or download the project**
+
    ```bash
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Run development server**
+
    ```bash
    npm run dev
    ```
@@ -276,6 +305,7 @@ npm start
 ## 📱 Responsive Breakpoints
 
 The application uses Tailwind CSS breakpoints:
+
 - **sm**: 640px (small devices)
 - **md**: 768px (tablets)
 - **lg**: 1024px (desktops)
@@ -294,17 +324,20 @@ All components are fully responsive and tested across these breakpoints.
 ## 🔧 Configuration Files
 
 ### `next.config.mjs`
+
 - Image domain configuration
 - React strict mode enabled
 
 ### `tailwind.config.ts`
+
 - Custom color palette
 - Custom animations
 - Extended theme configuration
 
 ### `tsconfig.json`
+
 - TypeScript compiler options
-- Path aliases (@/*)
+- Path aliases (@/\*)
 
 ## 📝 Animation Details
 
@@ -319,11 +352,13 @@ All animations use **Framer Motion** (free library):
 ## 🌐 Deployment
 
 ### Vercel (Recommended)
+
 1. Push code to GitHub
 2. Import project in Vercel
 3. Deploy automatically
 
 ### Other Platforms
+
 - **Netlify**: Connect GitHub repo
 - **AWS Amplify**: Connect repository
 - **Self-hosted**: Build and serve static files
@@ -348,5 +383,3 @@ For questions or issues, please open an issue on the repository or contact throu
 - **Lucide** for beautiful icons
 
 ---
-
-**Built with ❤️ using Next.js and Tailwind CSS**
